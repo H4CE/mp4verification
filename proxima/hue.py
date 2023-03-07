@@ -21,6 +21,4 @@ class Hue:
         return hue
 
 
-capt = Hue(r"E:\HMS\Coding\Media\darkvid.mp4")
 
-print(capt.getHue())
