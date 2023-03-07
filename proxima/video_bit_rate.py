@@ -1,7 +1,7 @@
 from pymediainfo import MediaInfo
 
 
-class VideoCap:
+class VideoBitRate:
     path=None
     cap=None
     def __init__(self,path) -> None:
@@ -14,7 +14,7 @@ class VideoCap:
                 return track.bit_rate
     
 
-capt=VideoCap(r"E:\HMS\Coding\Media\vid1.mp4")
+# capt=VideoCap(r"E:\HMS\Coding\Media\vid1.mp4")
 
-print(capt.getVideoBitRate())
+# print(capt.getVideoBitRate())
                 

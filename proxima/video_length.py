@@ -1,10 +1,7 @@
 import cv2 as cv
 
 
-class VideoCap:
-    cap = None
-    path = None
-    
+class VideoLength:
     def __init__(self,path) -> None:
         self.path = path
         self.cap = cv.VideoCapture(self.path)
@@ -22,6 +19,4 @@ class VideoCap:
         return videoLength
 
 
-capt = VideoCap(f"E:\HMS\Coding\Media\darkvid.mp4")
 
-print(capt.getVideoLength())
